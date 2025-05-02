@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Denali</title>
+	<img src="https://media.istockphoto.com/id/508178996/photo/mount-mckinley.jpg?s=1024x1024&w=is&k=20&c=OdkoYYpP05mOXP5pX-vZP1GNFyUZQGNS5C5cQ88GIuc=" alt="The Mountain is Showing!"/>
+    <h1>This is a page about the Denali National Park</h1>
+	<p>Mount McKinley is the largest mountain in Nort America. That is because it is mostly made from granite.</p>
+  </head>
+  <body>
+  <main>
+  <h1> This is a Denali Camp Quiz!</h1>
+  <p>There will be five questions in total! Good luck!</p>
+  </main>
+    <form id="survey">
+	<p>
+	<label for="name" id="name-label">
+	<input id="name" type="text" placeholder="Enter Name Here:" size="40"/>
+	</label>
+	</p>
+	<p>
+	<label for="age" id="age-lable">
+	<input id="age" type="number" size="40" placeholder="Age:" min="10" max="120" required/> 
+	</label>
+	</p>
+	<p>
+	<label for="email" id="email-label">
+	<input id="email" type="text" placeholder="Enter Email Here:" min="3" max="10" size="40"/>
+	</label>
+	</p>
+	<div class="alert">
+	<span="closebtn" onclick="You are ready to begin!">&times;</span>
+	This is an alert box
+	</div>
+	<fieldset>
+	<p>Is there granite in Denali National Park?</p>
+	<label for="granite">
+	<input type="radio" type="text" id="granite" name="granite"> Yes
+	</label>
+	<label for="granite-no">
+	<input type="radio" type="text" id="granite-no" name="granite-no"> No
+    </label>	
+	</fieldset>
+	<fieldset>
+	<p>Is there marble in Denali National Park?</p>
+	<label for="marble-yes">
+	<input type="radio" type="text" id="marble-yes" name="marble-yes"> Yes
+	</label>
+	<label for="marble-no">
+	<input type="radio" type="text" id="marble-no" name="marble-no"> No
+	</label>
+	</fieldset>
+	<p>Were you ever to Denali National Park?</p>
+	<select id="dropdown">
+	<option value="1"> Yes I was!</option>
+	<option value="2"> Not yet, but I will go!</option>
+	<option value="3"> No</option>
+	</select>
+	</p>
+	<p>Is there permafrost in Denali National Park?</p>
+	<p>
+	<label for="frostyes">
+	<input type="checkbox" id="frostyes" name="frostyes" value="frostyes"> Yes, there is!
+	</label>
+	</p>
+	<p>
+	<label for="frost-some-places">
+	<input type="checkbox"  id="frost-some-places" name="frost-some-places" value="frost-some-places"> Yes, but not everywhere in the park!
+	</label>
+	</p>
+	<p>
+	<label for="frost-no">
+	<input type="checkbox" id="frost-no" name="frost-no" value="frost-no"> No, there isn't!
+	</label>
+	</p>
+	<p>
+	<label for="dunno">
+	<input type="checkbox" id="dunno" name="dunno" value="dunno"> I don't know...
+	</label>
+	</p>
+	</p>
+	<label for="text-area">
+	<textarea id="text-area" name="text-area" rows="3" cols="100">
+	What do you think of the picture?
+	</textarea>
+	<p>
+	<label for="submit">
+	<input type="submit" id="submit" name="submit"/>
+	</label>
+	</p>
+	</form>
+  </body>
+</html>
