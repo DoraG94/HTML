@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th id="publication-year">Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="title" name="title">
+     <td>Aladin</td>
+     <td>Fairy Tale</td>
+     <td>How to Not Give a F</td>
+     <td>200</td>
+     </tr>
+      <tr>
+     <td>Snow White</td>
+     <td>No Idea</td>
+     <td>Nope</td>
+     <td>1000</td>
+     </tr>
+      <tr>
+     <td>Baba Yaga</td>
+     <td>No Idea</td>
+     <td>Fairy Tale</td>
+     <td>900</td>
+     </tr>
+      <tr>
+     <td>The Little Mermaid</td>
+     <td>Hans Christian Anderson</td>
+     <td>Fairy Tale</td>
+     <td>1500?</td>
+     </tr>
+      <tr>
+     <td>Vasilisa</td>
+     <td>Pushkin</td>
+     <td>Fairy Tale</td>
+     <td>I don't know</td>
+     </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+         <td colspan="4">Total Books: 5</td>
+      </tr>
+      </tfoot>
+  </table>
+</body>
+
+</html>
